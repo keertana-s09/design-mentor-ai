@@ -1,0 +1,13 @@
+project_id = "jdyjmnjifpankrwxbeie"
+
+# analyze-design accepts anonymous quick analyses from the landing page
+# (rate limited per IP), so the gateway must let unauthenticated requests through.
+# Every function checks the signed-in user itself before touching stored data.
+[functions.analyze-design]
+verify_jwt = false
+
+[functions.analyze-submission]
+verify_jwt = true
+
+[functions.compare-versions]
+verify_jwt = true

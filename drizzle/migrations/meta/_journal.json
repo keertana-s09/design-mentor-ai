@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788599574940,
+      "tag": "0000_persistent_data_layer",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788698468608,
+      "tag": "0001_tighten_rls_and_function_grants",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788698546408,
+      "tag": "0002_move_has_role_to_private_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1789491608926,
+      "tag": "0003_create_challenges_and_submissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1792742531069,
+      "tag": "0004_add_designs_storage_paths",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793059200000,
+      "tag": "0005_verified_scores_versions_and_roles",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+ALTER TABLE public.designs ADD COLUMN IF NOT EXISTS storage_paths JSONB;
+COMMENT ON COLUMN public.designs.storage_paths IS 'Array of storage paths for all screenshots of this design (first entry mirrors storage_path).';
